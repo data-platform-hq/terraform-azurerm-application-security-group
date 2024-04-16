@@ -6,7 +6,7 @@ This module provides an ability to deploy Azure Application security group.
 
 ```hcl
 module "application_security_group" {
-  source         =  "data-platform-hq/terraform-azurerm-application-security-group"
+  source         = "data-platform-hq/terraform-azurerm-application-security-group"
   name           = "example-name"
   location       = "eastus"
   resource_group = "example-rg"
